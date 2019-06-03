@@ -6,8 +6,8 @@ const MessageBox = ({ date, message, position }) => {
 
     return (
         <div className={style}>
-            <span className='datetime'>{date}</span>
-            <span className='message'>{message}</span>
+            <div className='datetime'>Sent on {date}</div>
+            <div className='message'>{message}</div>
         </div>
     );
 };

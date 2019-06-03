@@ -1,0 +1,25 @@
+.left-message-box {
+    border: 1px black solid;
+    background-color: #BEBEBE;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    padding: 8px;
+}
+
+.right-message-box {
+    border: 1px black solid;
+    background-color: #BEBEBE;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    padding: 8px;
+}
+
+.datetime {
+    font-size: 10px;
+}
+
+.message {
+
+}

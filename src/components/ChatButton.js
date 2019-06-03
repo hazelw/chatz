@@ -1,5 +1,5 @@
 import React from 'react';
-import DeleteChatButton from './DeleteChatButton';
+import DeleteChatButton from '../containers/DeleteChatButton';
 import './styles/ChatButton.css';
 
 const ChatButton = ({text, id}) => (

@@ -1,0 +1,9 @@
+.reply-box {
+    font-size: 16px;
+}
+
+.reply-box-wrapper {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
