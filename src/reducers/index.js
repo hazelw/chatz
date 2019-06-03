@@ -1,7 +1,7 @@
 const initialState = {
     chats: [
         {id: 0, messages: [{
-            id: 0, message: 'Welcome to the chat', datetime: new Date()
+            id: 0, message: 'Welcome to the chat', datetime: new Date(), position: 'left'
         }]}
     ],
     selectedChatId: 0
@@ -21,7 +21,7 @@ const chats = (state = initialState, action) => {
                     {
                         id: lastChatId + 1,
                         messages: [
-                            {id: 0, message: 'Welcome to the chat', datetime: action.datetime}
+                            {id: 0, message: 'Welcome to the chat', datetime: action.datetime, position: 'left'}
                         ]
                     }
                 ]
@@ -31,6 +31,13 @@ const chats = (state = initialState, action) => {
             return {
                 ...state,
                 chats: state.chats.filter((chat) => chat.id !== action.id)
+            };
+        }
+        case 'SELECT_CHAT': {
+            console.log("changing selection to " + action.id);
+            return {
+                ...state,
+                selectedChatId: action.id
             };
         }
         default: {

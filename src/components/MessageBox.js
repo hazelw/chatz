@@ -6,7 +6,7 @@ const MessageBox = ({ date, message, position }) => {
 
     return (
         <div className={style}>
-            <div className='datetime'>Sent on {date}</div>
+            <div className='datetime'>Sent on {date.toString()}</div>
             <div className='message'>{message}</div>
         </div>
     );

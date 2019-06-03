@@ -1,5 +1,5 @@
 import React from 'react';
-import ChatButton from './ChatButton';
+import ChatButton from '../containers/ChatButton';
 import '../App.css';
 
 const ChatList = ({ chats }) => (
