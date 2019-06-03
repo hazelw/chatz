@@ -1,0 +1,17 @@
+.button {
+    border-bottom: 1px black solid;
+    display: flex;
+}
+
+.button-text {
+    flex-grow: 1
+}
+
+.delete-chat-button {
+    border: 1px black solid;
+    padding: 2px;
+    margin: 2px;
+    width: 15px;
+    height: 15px;
+}
+
