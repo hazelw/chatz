@@ -1,6 +1,7 @@
 .button {
     border-bottom: 1px black solid;
     display: flex;
+    padding: 8px;
 }
 
 .button-text {
@@ -9,7 +10,7 @@
 
 .delete-chat-button {
     border: 1px black solid;
-    padding: 2px;
+    padding: 3px 1px 5px 8px;
     margin: 2px;
     width: 15px;
     height: 15px;
